@@ -2,9 +2,13 @@
 
 > Create `humans.txt` for your Gatsby site.
 
+![Humans.txt](<http://humanstxt.org/img/logo-humans.png>)
+
 ## Overview
 
-Generates an `/humans.txt` file following the [humanstxt.org standard](http://humanstxt.org/Standard.html).
+Gatsby plugin to generate an `humans.txt` file on `gatsby build`.
+
+`humans.txt` is an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.
 
 ## Install
 
@@ -18,9 +22,9 @@ or
 yarn add gatsby-plugin-humans-txt
 ```
 
-## How to use
+## Usage
 
-Add the plugin to your `gatsby-config.js`. The example below follows the [humanstxt.org standard](http://humanstxt.org/Standard.html):
+Add the plugin to your `gatsby-config.js` and pass the `options` property an object representation of what you want the `humans.txt` file to look like. The example below can be used to follow the [humanstxt.org standard](http://humanstxt.org/Standard.html):
 
 ```javascript
 plugins: [
@@ -47,7 +51,7 @@ plugins: [
 ]
 ```
 
-## Options
+### Options
 
 Options are passed directly to [humans-generator](https://www.npmjs.com/package/humans-generator) which maps top level properties in the `options` object from this:
 
@@ -87,8 +91,8 @@ Or don't! :man_shrugging:
 
 - [ ] Write [humans-generator](https://www.npmjs.com/package/humans-generator) zero dependency alternative
   - [ ] Add `filePath` option to override default
-  - [ ] change `header` option to print the value without converting (see awesome [Netflix example](https://www.netflix.com/humans.txt))
-- [ ] Determine feasibility of automatically pulling the `teams` data from the git repository
+  - [ ] change `header` option to print the value without automatically converting to ASCII (see awesome [Netflix example](https://www.netflix.com/humans.txt))
+- [ ] Determine feasibility of automatically pulling the `teams` data from the git repository commits
 
 ## Support
 
