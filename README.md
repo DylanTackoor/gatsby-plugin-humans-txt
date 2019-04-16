@@ -6,7 +6,7 @@
 
 ## Overview
 
-Gatsby plugin to generate an `humans.txt` file on `gatsby build`.
+Gatsby plugin to generate a `humans.txt` file on `gatsby build`.
 
 `humans.txt` is an initiative for knowing the people behind a website. It's a TXT file that contains information about the different people who have contributed to building the website.
 
