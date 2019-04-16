@@ -1,6 +1,6 @@
 {
 	"name": "gatsby-plugin-humans-txt",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "GatsbyJS plugin to generate a humans.txt file",
 	"main": "index.js",
 	"author": "Dylan Tackoor",
