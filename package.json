@@ -1,0 +1,22 @@
+{
+	"name": "gatsby-plugin-humans-txt",
+	"version": "0.0.1",
+	"description": "GatsbyJS plugin to generate a humans.txt file",
+	"main": "index.js",
+	"author": "Dylan Tackoor",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DylanTackoor/gatsby-plugin-humans-txt.git"
+	},
+	"bugs": {
+		"url": "https://github.com/DylanTackoor/gatsby-plugin-humans-txt/issues"
+	},
+	"homepage": "https://github.com/DylanTackoor/gatsby-plugin-humans-txt#readme",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"humans-generator": "^2.1.1"
+	}
+}
