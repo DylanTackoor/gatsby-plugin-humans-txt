@@ -2,7 +2,7 @@
 
 > Create `humans.txt` for your Gatsby site.
 
-![Humans.txt](<http://humanstxt.org/img/logo-humans.png>)
+![Humans.txt](http://humanstxt.org/img/logo-humans.png)
 
 ## Overview
 
@@ -28,26 +28,26 @@ Add the plugin to your `gatsby-config.js` and pass the `options` property an obj
 
 ```javascript
 plugins: [
-	{
-		resolve: `gatsby-plugin-humans-txt`,
-		options: {
-			team: [
-				{
-					Developer: `Dylan Tackoor`,
-					GitHub: `dylantackoor`,
-					Twitter: `@dylantackoor`
-				}
-			],
-			thanks: [`Gatsby`, `Node`],
-			site: {
-				'Last update': `2019/4/16`,
-				Standards: `JavaScript`,
-				Components: `humans-generator`,
-				Softwares: `Visual Studio Code`
-			},
-			note: `Made in Miami.`
-		}
-	}
+  {
+    resolve: `gatsby-plugin-humans-txt`,
+    options: {
+      team: [
+        {
+          Developer: `Dylan Tackoor`,
+          GitHub: `dylantackoor`,
+          Twitter: `@dylantackoor`
+        }
+      ],
+      thanks: [`Gatsby`, `Node`],
+      site: {
+        'Last update': `2019/4/16`,
+        Standards: `JavaScript`,
+        Components: `humans-generator`,
+        Softwares: `Visual Studio Code`
+      },
+      note: `Made in Miami.`
+    }
+  }
 ]
 ```
 
@@ -55,12 +55,12 @@ plugins: [
 
 Options are passed directly to [humans-generator](https://www.npmjs.com/package/humans-generator) which maps top level properties in the `options` object from this:
 
-```js
+```javascript
 {
-    teams: [
-        { Role: `Name`, Twitter: `@username`}
-        { Role2: `Name2`, Twitter: `@username2` },
-    ]
+  teams: [
+    { Role: `Name`, Twitter: `@username`}
+    { Role2: `Name2`, Twitter: `@username2` },
+  ]
 }
 ```
 
