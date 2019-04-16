@@ -5,6 +5,7 @@ const { join } = require(`path`)
 
 exports.onPostBuild = async (api, pluginOptions) => {
 	const filePath = join(`./public`, `humans.txt`)
+	delete pluginOptions.plugins
 
 	try {
 		const humansTxt = await promisify(humans)(pluginOptions)
