@@ -7,8 +7,8 @@ exports.onPostBuild = async (api, pluginOptions) => {
 	const filePath = join(`./public`, `humans.txt`)
 
 	try {
-		const humansTxt = await promisify(humans)(pluginOptions).join(`\n`)
-		await promisify(writeFile)(filePath, humansTxt)
+		const humansTxt = await promisify(humans)(pluginOptions)
+		await promisify(writeFile)(filePath, humansTxt.join(`\n`))
 	} catch (error) {
 		console.error(error)
 		throw error
