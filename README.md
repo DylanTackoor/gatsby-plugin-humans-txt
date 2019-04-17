@@ -2,7 +2,7 @@
 
 > Create `humans.txt` for your Gatsby site.
 
-![Humans.txt](http://humanstxt.org/img/logo-humans.png)
+![[Humans.txt](http://humanstxt.org/)](http://humanstxt.org/img/logo-humans.png)
 
 ## Overview
 
@@ -77,13 +77,14 @@ Twitter: @username2
 
 To follow the standard, use the below options:
 
-|   Name   |            Type            |   Default    |                        Description                        |
-| :------: | :------------------------: | :----------: | :-------------------------------------------------------: |
-| `header` |          `String`          | `humans.txt` |         Text to be converted to header ASCII art          |
-|  `team`  |         `Object[]`         | `undefined`  | Information about every **human** involved in the project |
-| `thanks` | `Object[]` \|\| `String[]` | `undefined`  |               Path to external config file                |
-|  `site`  |         `Object[]`         | `undefined`  |           Additional information about the site           |
-|  `note`  |          `String`          | `undefined`  |           Path where to create the `robots.txt`           |
+|   Name    |            Type            |   Default    |                         Description                          |
+| :-------: | :------------------------: | :----------: | :----------------------------------------------------------: |
+| `metaTag` |         `boolean`          |    `true`    | Flag to include `<link rel="author" href="humans.txt" />` in the `head` tag |
+| `header`  |          `String`          | `humans.txt` |           Text to be converted to header ASCII art           |
+|  `team`   |         `Object[]`         | `undefined`  |  Information about every **human** involved in the project   |
+| `thanks`  | `Object[]` \|\| `String[]` | `undefined`  |                 Path to external config file                 |
+|  `site`   |         `Object[]`         | `undefined`  |            Additional information about the site             |
+|  `note`   |          `String`          | `undefined`  |            Path where to create the `robots.txt`             |
 
 Or don't! :man_shrugging:
 
