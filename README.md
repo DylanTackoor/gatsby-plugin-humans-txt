@@ -2,7 +2,7 @@
 
 > Create `humans.txt` for your Gatsby site.
 
-![[Humans.txt](http://humanstxt.org/)](http://humanstxt.org/img/logo-humans.png)
+![[Humans.txt](http://humanstxt.org/)](https://raw.githubusercontent.com/DylanTackoor/gatsby-plugin-humans-txt/master/humans.png)
 
 ## Overview
 
