@@ -19,6 +19,6 @@
 	],
 	"dependencies": {
 		"humans-generator": "^2.1.1",
-		"react": "^16.8.6"
+		"react": "^17.0.1"
 	}
 }
